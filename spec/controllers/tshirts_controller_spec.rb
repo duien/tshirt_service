@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe TshirtsController do
-  let(:a_tshirt) { <<EOS }
+  let(:a_tshirt) { <<'EOS' }
         __.-.__.-.__
       .'\ '-.__.-' /'.
      /  |   _      |  \
@@ -23,7 +23,6 @@ EOS
 
     it 'returns a tshirt' do
       get :index
-      binding.pry
       expect(response.body).to include(a_tshirt)
     end
   end
