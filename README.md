@@ -20,9 +20,7 @@ one has an ascii tshirt with a bird on it, though.
 
 ## Advanced Usage
 
-The trick is to keep the loop for testing the install process as tight as
-possible.  If you need to test integration with something that doesn't exist in
-T-shirt service (eg, ActiveRecord models), add that to your branch and check it
-in, so you don't have to keep adding it.  *Do not* check in any of the
-integration steps, though - if you are tempted to do so, this tells you that
-that step needs to be easier.
+For a more thorough walk-through and specific ideas to improve your integration
+process, see the [New Relic blog
+post](http://blog.newrelic.com/2014/05/20/t-shirt-method-simplifying-integration-process/)
+we wrote on the subject.
