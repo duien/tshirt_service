@@ -2,8 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-pre.tshirt {
+pre.plain {
   // Some common css files put a border and grey background on <pre>.
   background-color: white;
   border-style: none;
+  font-family: monospace;
+  line-height: 1em;
 }
