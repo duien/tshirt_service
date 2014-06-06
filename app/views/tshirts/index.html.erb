@@ -1,19 +1,25 @@
-<p> Here is a tshirt! </p>
+<div class="page-header">
+  <h1>Here is a tshirt!</h1>
+</div>
 
-<pre class='tshirt'>
-        __.-.__.-.__
-      .'\ '-.__.-' /'.
-     /  |   _      |  \
-    /   |  <') ,/  |   \
-    '-._/  (_==/   \_.-'
-        |   ='-    |
-        |          |
-        |          |
-        |          |
-        '._      _.'
-           `""""`
-</pre>
-
-<div ng-controller='TestCtrl'>
-  {{ message }}
+<div class="row" ng-controller="TestCtrl">
+  <div class="span3">
+    <pre class='tshirt'>
+            __.-.__.-.__
+          .'\ '-.__.-' /'.
+         /  |   _      |  \
+        /   |  <') ,/  |   \
+        '-._/  (_==/   \_.-'
+            |   ='-    |
+            |          |
+            |          |
+            |          |
+            '._      _.'
+               `""""`
+    </pre>
+  </div>
+  
+  <div class="span9">
+    {{ message }}
+  </div>
 </div>
