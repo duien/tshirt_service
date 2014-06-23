@@ -14,8 +14,8 @@ module Critters
 
     cat: [
       '      ',
-      ' /\\_/\\ ',
-      '( o.o )',
-      ' > ^ < ' ]
-  }
+      ' /\\/\\ ',
+      '( oo )',
+      ' >  < ' ]
+  }.with_indifferent_access
 end
