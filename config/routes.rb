@@ -6,6 +6,7 @@ TshirtService::Application.routes.draw do
   root 'tshirts#index'
 
   resources :tshirts, :only => [ :index ]
+  resources :critters, :only => [:index, :show]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
